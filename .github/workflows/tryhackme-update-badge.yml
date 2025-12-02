@@ -31,7 +31,7 @@ jobs:
       # Remove continue-on-error if you fix the action to exit 0 when nothing changed.
       continue-on-error: true
       with:
-        image_path: 'rossplennon/assets/tryhackme-badge.png'
+        image_path: 'rossplennon/rossplennon/assets/tryhackme-badge.png'
         username: 'rossplennon'
         user_id: 'your_tryhackme_user_id'
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
